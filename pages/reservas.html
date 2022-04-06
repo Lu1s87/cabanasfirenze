@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/main.css">
+
+    <title>Reservas | Cabañas Firenze</title>
+</head>
+<body>
+
+    
+    <!-- menu de navegacion -->
+    
+    <header class="barraMenu">
+
+        <a href="../index.html"><img src="../img/Logo-Complejo-Firenze.png" alt="logo"></a>
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html"> Inicio </a>
+                </li>
+                
+                <li><a href="lascabanas.html"> Las Cabañas </a>
+                </li>    
+                
+                <li><a href="galeria.html"> Galeria </a>
+                </li>
+    
+                <li><a href="reservas.html"> Reservas </a>
+                </li>    
+                
+                <li><a href="contacto.html"> Contacto </a>
+                </li> 
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- formulario de reserva -->
+
+    <main class="mainFormulario">
+        <div>
+            <form action="">
+                <fieldset class="formulario"> 
+                    <legend> Consultar disponibilidad </legend>
+                    <div>
+                        <label for="fecha de ingreso"> Fecha de ingreso</label>
+                        <input type="text" name="ingreso">
+                    </div>
+                    <div>
+                        <label for="Fecha de salida"> Fecha de Salida</label>
+                        <input type="text" name="salida"> 
+                    </div>
+                    <div>
+                        <label for="cantidad de personas"> Cuantos son?</label>
+                        <input type="text" name="cantidad">
+                    </div>
+                    <div>
+                        <label for="cochera"> Cochera</label>
+                        <input type="radio" name="cochera" value="si"> si
+                        <input type="radio" name="cochera" value="no"> no
+                    </div>
+                    <div class="boton1">
+                        <input type="submit" value="enviar el formulario">
+                    </div>
+                    
+                </fieldset>
+        </div>
+        
+    </main>
+    
+
+    <footer id="Footer"> 
+        <p>Cabañas Firenze by Luis Ledesma</p>
+    </footer>
+</body>
+</html>
