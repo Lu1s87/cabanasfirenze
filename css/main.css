@@ -7,7 +7,7 @@
 /* propiedades generales */
 
 body{
-    background-color: rgb(245, 236, 194);
+    background-image: linear-gradient(rgb(245, 236, 194), white);
     }
 
 .barraMenu{
